@@ -1,5 +1,50 @@
 .card {
+  height: 550px;
+  width: 300px;
+  background-color: blueviolet;
+  color: white;
+  text-decoration: none;
+  margin: 0 32px;
+  padding: 8px;
+  align-items: center;
+  display: flex;
+    img {
+      width: 55%;
+      height: auto;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+    }
+}
+
+.overview {
+  padding-top: 24px;
+}
+
+.movie_poster {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+
+.card_list {
   height: 300px;
-  width: 200px;
-  background-color: brown;
+  width: 300px;
+  background-color: blueviolet;
+  color: white;
+  text-decoration: none;
+  margin: 0 32px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+}
+
+.delete {
+  padding: 0 16px;
 }
