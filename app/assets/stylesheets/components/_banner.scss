@@ -7,3 +7,17 @@
   justify-content: center;
   align-items: center;
 }
+
+.banner_home {
+  width: 100vw;
+  height: 35vh;
+  background-color: goldenrod;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://media.wired.co.uk/photos/606d9ea06a2b7484dab92d37/master/w_1600%2Cc_limit/wired-movie-industry.jpg);
+  h1 {
+    font-weight: bolder;
+  }
+}

@@ -1,11 +1,11 @@
 <div class="outer-container">
-  <div class="banner">
-    <h1>Mark's Movie Lists</h1>
+  <div class="banner_home">
+    <h1>Movie Lists</h1>
   </div>
   <div class="list_cards">
 
       <% @lists.each do |list| %>
-        <div class="card_list">
+        <div style="background-size: cover; background-image: url(<%= list.photo.attached? ? cl_image_path(list.photo.key) : "https://cdn.britannica.com/61/118661-050-6CAD9A11/Popcorn.jpg"%> )" class="card_list">
           <div>
             <h3><%= link_to list.name, list_path(list) %></h3>
           </div>
