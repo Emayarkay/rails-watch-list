@@ -1,0 +1,12 @@
+<div>
+  <div class="banner">
+    <h1>New bookmark</h1>
+  </div>
+
+  <%= simple_form_for [@bookmark] do |f| %>
+    <%= f.input :comment %>
+    <%= f.submit "Submit", class: "btn btn-primary" %>
+  <% end %>
+
+  <p><%= link_to "Back to your List", lists_path %></p>
+</div>
